@@ -13,4 +13,17 @@ Tarjetas de perfil de Ada Lovelace, Alan Turing y Grace Hopper, con efectos al p
 - Mover y escalar elementos con `transform` sin afectar al resto de la página
 - Animar cambios con `transition`, y por qué va en el estado normal y no en `:hover`
 - Recortar una imagen dentro de su marco con `overflow: hidden`
-- Hacer que toda una tarjeta reaccione con
+- Hacer que toda una tarjeta reaccione con `.bloque:hover .elemento`
+- Que los efectos también respondan al teclado con `:focus-within` y `:focus-visible`
+- Dar sensación de clic con `:active`
+- Respetar a quien pide menos movimiento con `prefers-reduced-motion`
+
+## Accesibilidad
+- Todos los efectos funcionan con el teclado, no solo con el mouse.
+- Si el sistema operativo tiene activada la reducción de movimiento, las tarjetas no se desplazan, pero siguen destacándose con su sombra.
+
+## Créditos
+- Retratos de dominio público, vía Wikimedia Commons.
+
+## Cómo verlo
+Descarga el repositorio y abre `index.html` en tu navegador.
